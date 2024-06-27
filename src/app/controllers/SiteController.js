@@ -4,7 +4,7 @@ class SiteController{
     }
 
     search(req,res){
-        res.send("search");
+        res.render('search');
     }
 }
 
