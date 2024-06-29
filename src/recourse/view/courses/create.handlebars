@@ -1,0 +1,42 @@
+<div class="mt-4">
+  <h3>Tao Khoa Hoc</h3>
+
+  <form method="post" action="/courses/saveCourse">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" class="form-control" id="name" name="name" />
+    </div>
+
+    <div class="form-group">
+      <label for="decription">Decription</label>
+      <input
+        type="text"
+        class="form-control"
+        id="decription"
+        name="decription"
+      />
+    </div>
+
+    {{!-- <div class="form-group">
+      <label for="image">Image by URL</label>
+      <input
+        type="text"
+        class="form-control"
+        id="image"
+        name="image"
+      />
+    </div> --}}
+
+    <div class="form-group">
+      <label for="IdFirstVideo">Video</label>
+      <input
+        type="text"
+        class="form-control"
+        id="IdFirstVideo"
+        name="IdFirstVideo"
+      />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create Course</button>
+  </form>
+</div>

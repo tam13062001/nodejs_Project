@@ -1,0 +1,33 @@
+<div class="mt-4">
+  <div class="row">
+    <div class="col-lg-3">
+      <div class="jumbotron">
+
+        <p class="lead"style=" text-align:center;">
+          <a class="btn btn-outline-primary btn-lg"  href="{{course.listVideo}}" role="button">Learn now</a>
+        </p>
+        <p class=""><i class="fa-solid fa-video"></i>Tong so video 113 </p>
+
+        <p>It uses utility classes for typography and spacing to space content
+          out within the larger container.</p>
+        
+      </div>
+
+    </div>
+
+    <div class="col-lg-9">
+      <h2>{{course.name}}</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/{{course.IdFirstVideo}}"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <p>{{course.decription}}</p>
+    </div>
+  </div>
+</div>
